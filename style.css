@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:#bdecb6;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#87ac81;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+}
+
+.logo{
+    background:white;
+    padding:15px 40px;
+    border-radius:40px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-links {
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    background:white;
+    color:black;
+    padding:10px 25px;
+    border-radius:30px;
+}
+
+.search-box input{
+    padding:10px 20px;
+    border:none;
+    border-radius:30px;
+}
+
