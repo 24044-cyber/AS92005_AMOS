@@ -46,3 +46,40 @@ body{
     border-radius:30px;
 }
 
+/* Intro */
+
+.intro{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:60px;
+}
+.intro-text{
+    width:340px;
+    background:white;
+    padding:40px 20px;
+    text-align:center:
+}
+
+.intro-buttons{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.intro-buttons button{
+    border:none;
+    background:white;
+    padding:8px 10px;
+    cursor:pointer;
+}
+
+.intro-image img{
+    width:500px;
+    height:300px;
+    object-fit:cover;
+}
+
+/* Heading */
+
