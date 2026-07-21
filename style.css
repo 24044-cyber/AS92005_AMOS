@@ -55,7 +55,7 @@ body{
     padding:60px;
 }
 .intro-text{
-    width:340px;
+    width:300px;
     background:white;
     padding:40px 20px;
     text-align:center:
@@ -83,3 +83,50 @@ body{
 
 /* Heading */
 
+.help-section{
+    display:flex;
+    justify-content:center;
+    margin:20px 0 50px;
+}
+
+.help-section h2{
+    background:#95b084;
+    padding:50px 150px;
+}
+
+/* Services */
+
+.services{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:warp;
+    padding:20px
+}
+
+.service-card{
+    text-align:center;
+}
+
+.service-card img{
+    width:120px;
+    height:120px;
+    background:white;
+    padding:20px;
+}
+
+.service-card h3{
+    background:white;
+    margin-top:10px;
+    padding:10px;
+    font-size:14px;
+    width:140px;
+}
+
+.service-card button{
+    margin-top:10px;
+    padding:5px 10px;
+    border:none:
+    background:white;
+    cursor:pointer;
+}
