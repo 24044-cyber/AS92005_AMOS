@@ -69,7 +69,7 @@ body{
     margin:20px 0 50px;
 }
 
-.help-section h2{
+.help-section h1{
     background:#95b084;
     padding:50px 150px;
 }
@@ -151,4 +151,139 @@ footer{
 
 .social img{
     width:30px;
+}
+
+/* ABOUT PAGE */
+
+.about-hero{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:35px;
+}
+
+.about-image img{
+    width:470px;
+    height:260px;
+    object-fit:cover;
+}
+
+.about-text{
+    width:400px;
+}
+
+.about-text h1{
+    background:#8fa683;
+    text-align:center;
+    padding:15px;
+    font-size:18px;
+    font-weight:normal;
+    margin-bottom:6px;
+}
+
+.about-text p{
+    background:white;
+    text-align:center;
+    padding:25px;
+    line-height:1.5;
+    font-size:16px;
+}
+
+
+/* VALUES */
+
+.values-title{
+    display:flex;
+    justify-content:center;
+    margin:40px 0;
+}
+
+.values-title h2{
+    background:#8fa683;
+    width:420px;
+    padding:30px;
+    text-align:center;
+    font-size:26px;
+}
+
+.values{
+    display:flex;
+    justify-content:space-evenly;
+    width:95%;
+    margin:auto;
+}
+
+.value-card{
+    width:180px;
+    text-align:center;
+}
+
+.value-card h3{
+    background:white;
+    padding:12px;
+    margin-bottom:10px;
+}
+
+.value-card img{
+    width:180px;
+    height:110px;
+    background:white;
+    object-fit:contain;
+}
+
+.value-card p{
+    background:white;
+    padding:15px;
+    margin-top:-4px;
+    font-size:15px;
+    line-height:1.4;
+}
+
+
+/* GREEN BANNER */
+
+.cta{
+    width:70%;
+    margin:40px auto;
+    background:#8fa683;
+    text-align:center;
+    padding:20px;
+}
+
+.cta h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.cta h3{
+    font-size:28px;
+    font-weight:normal;
+}
+
+
+/* BOTTOM */
+
+.bottom-about{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:35px;
+}
+
+.bottom-image img{
+    width:420px;
+    height:220px;
+    object-fit:cover;
+}
+
+.contact-box{
+    width:330px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    text-align:center;
+    line-height:1.5;
+    font-size:17px;
 }
