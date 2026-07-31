@@ -287,3 +287,57 @@ footer{
     line-height:1.5;
     font-size:17px;
 }
+
+/* CONTACT PAGE */
+.contact-section{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin-top:45px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.contact-form input{
+    width:320px;
+    padding:12px;
+    border:none;
+    background:white;
+    text-align:center;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    width:320px;
+    height:150px;
+    padding:15px;
+    border:none;
+    resize:none;
+    text-align:center;
+    font-size:16px;
+}
+
+.contact-info{
+    width:350px;
+}
+
+.contact-info h2{
+    background:white;
+    text-align:center;
+    padding:15px;
+    font-size:18px;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+.info-box{
+    background:white;
+    padding:40px 25px;
+    text-align:center;
+    line-height:1.6;
+    min-height:190px;
+}
