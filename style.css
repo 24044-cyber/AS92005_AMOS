@@ -341,3 +341,83 @@ footer{
     line-height:1.6;
     min-height:190px;
 }
+
+/* ---------- FAQ ---------- */
+
+.faq-title{
+    margin:40px 0;
+    display:flex;
+    justify-content:flex-start;
+    padding-left:70px;
+}
+
+.faq-title h2{
+    background:#8da67d;
+    width:180px;
+    padding:18px;
+    text-align:center;
+    font-size:42px;
+}
+
+.faq{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px 60px;
+}
+
+.faq-card h3{
+    background:white;
+    padding:12px;
+    text-align:center;
+    font-size:17px;
+    font-style:italic;
+    text-decoration:underline;
+}
+
+.faq-card p{
+    background:white;
+    padding:15px;
+    text-align:center;
+    line-height:1.5;
+    font-size:15px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media(max-width:900px){
+
+.contact-section{
+    flex-direction:column;
+    align-items:center;
+}
+
+.faq{
+    grid-template-columns:1fr;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-info{
+    width:90%;
+}
+
+}
+
+/*--SUBMIT--*/
+.submit-btn{
+    margin-top:15px;
+    width:100%;
+    padding:12px;
+    background:#8da67d;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.submit-btn:hover{
+    background:#6f8b63;
+}
