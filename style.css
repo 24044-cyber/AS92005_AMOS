@@ -61,6 +61,35 @@ body{
     object-fit:cover;
 }
 
+/* Kaitiakitanga introduction */
+
+.intro-text h1 {
+    color: #315c35;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.intro-buttons {
+    margin-top: 20px;
+}
+
+.intro-button {
+    display: inline-block;
+    background-color: #668b60;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+}
+
+.intro-button:hover {
+    background-color: #315c35;
+}
+
 /* Heading */
 
 .help-section{
@@ -276,72 +305,6 @@ footer{
     object-fit:cover;
 }
 
-.contact-box{
-    width:330px;
-    background:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:30px;
-    text-align:center;
-    line-height:1.5;
-    font-size:17px;
-}
-
-/* CONTACT PAGE */
-.contact-section{
-    display:flex;
-    justify-content:center;
-    gap:60px;
-    margin-top:45px;
-}
-
-.contact-form{
-    display:flex;
-    flex-direction:column;
-    gap:12px;
-}
-
-.contact-form input{
-    width:320px;
-    padding:12px;
-    border:none;
-    background:white;
-    text-align:center;
-    font-size:16px;
-}
-
-.contact-form textarea{
-    width:320px;
-    height:150px;
-    padding:15px;
-    border:none;
-    resize:none;
-    text-align:center;
-    font-size:16px;
-}
-
-.contact-info{
-    width:350px;
-}
-
-.contact-info h2{
-    background:white;
-    text-align:center;
-    padding:15px;
-    font-size:18px;
-    font-weight:normal;
-    margin-bottom:15px;
-}
-
-.info-box{
-    background:white;
-    padding:40px 25px;
-    text-align:center;
-    line-height:1.6;
-    min-height:190px;
-}
-
 /* ---------- FAQ ---------- */
 
 .faq-title{
@@ -405,19 +368,19 @@ footer{
 
 }
 
-/*--SUBMIT--*/
-.submit-btn{
-    margin-top:15px;
-    width:100%;
-    padding:12px;
-    background:#8da67d;
-    color:white;
-    border:none;
-    font-size:16px;
-    cursor:pointer;
-    transition:0.3s;
+/*---- Footer ----*/
+
+html, body {
+    margin: 0;
+    min-height: 100%;
 }
 
-.submit-btn:hover{
-    background:#6f8b63;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
 }
